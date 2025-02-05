@@ -16,7 +16,7 @@ a{
 
 .btn{
   background-color: #0061fe;
-  color: white;
+  color: #ffffff;
   padding: 10px 20px;
 }
 
@@ -41,7 +41,7 @@ header div a img{
 /* main */
 h1{
   width: 60%;
-  margin: 0 auto;
+  margin: 0 auto -60px auto;
   padding: 40px 0 0 0;
   font-size: 50px;
   
@@ -77,4 +77,33 @@ h1{
 
  section.jumbo div.flex div div:last-child{
   height: 60px;
+ }
+
+ /* footer */
+ footer{
+  background-color: #000000;
+  color: #ffffff;
+ }
+
+ footer .flex{
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  line-height: 35px;
+ }
+
+ footer ul{
+  list-style: none;
+ }
+
+ footer section{
+  padding: 30px 0;
+  width: 70%;
+  margin: 0 auto;
+ }
+
+ .lingua{
+  padding-top: 20px;
+  border-top: 1px solid #ffffff;
+  display: inline-block;
  }
