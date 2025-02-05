@@ -82,6 +82,18 @@ section.jumbo div.flex div div:last-child{
 hr{
   color: #f5f5f5;
 }
+
+/* sezione1 moduli*/
+.selectround, .round{
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 2px solid black;
+  border-radius: 15px;
+}
+
+
+
 /* footer */
 footer{
   background-color: #000000;
