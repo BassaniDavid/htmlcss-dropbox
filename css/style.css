@@ -18,6 +18,7 @@ header a, footer a, .btn{
   background-color: #0061fe;
   color: #ffffff;
   padding: 10px 20px;
+  display: inline-block;
 }
 
 /* header   */
@@ -107,8 +108,48 @@ h2{
   top: 2px;
 }
 
+.round{
+  margin-left: 40px;
+}
 .selectround{
   border: 4px solid #0061ff;
+}
+
+.selezione{
+  margin-bottom: 30px;
+}
+
+main h4.modtitol{
+  text-align: center;
+  border-bottom: 2px solid #d0cfd4;
+  margin: 0;
+  padding: 0;
+
+}
+
+.modulo *{
+  margin: 15px 0;
+}
+
+p.bold{
+  font-weight: bolder;
+}
+.modulo{
+  border: 2px solid #d0cfd4;
+  width: 32%;
+}
+
+.modmain{
+  padding: 15px;
+}
+
+.periodo{
+  color: #9e9e9e;
+  margin-bottom: 35px;
+}
+
+main ul{
+  list-style: none;
 }
 
 /* footer */
