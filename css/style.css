@@ -92,8 +92,9 @@ h1{
   line-height: 35px;
  }
 
- footer ul{
+ footer ul, .lingua{
   list-style: none;
+  font-size: small;
  }
 
  footer section{
@@ -106,4 +107,5 @@ h1{
   padding-top: 20px;
   border-top: 1px solid #ffffff;
   display: inline-block;
+  word-spacing: 5px;
  }
