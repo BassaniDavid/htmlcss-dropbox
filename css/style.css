@@ -89,7 +89,7 @@ height: 1px;
 
 /* sezione1 moduli*/
 .sezione1{
-  width: 60%;
+  width: 50%;
   margin: 0 auto;
 }
 
@@ -127,6 +127,10 @@ main h4.modtitol{
 
 }
 
+.flex-modulo{
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 .modulo *{
   margin: 15px 0;
 }
@@ -136,7 +140,8 @@ p.bold{
 }
 .modulo{
   border: 2px solid #d0cfd4;
-  width: 32%;
+  width: 30%;
+  margin-bottom: 40px;
 }
 
 .modmain{
@@ -152,6 +157,28 @@ main ul{
   list-style: none;
 }
 
+main .modulo hr{
+  width: 60px;
+  height: 2px;
+}
+
+.fa-solid, .fa-check{
+  color: #0061fe;
+}
+
+.modulo4{
+  width: 100%;
+}
+
+.modulo4 div{
+  position: relative;
+}
+
+.btn-assolute{
+  position: absolute;
+  top: 0;
+  right: 25px;
+}
 /* footer */
 footer{
   background-color: #000000;
