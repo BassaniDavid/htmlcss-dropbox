@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Open Sans", serif;
+  font-size: small;
 }
 
 .flex{
@@ -21,6 +22,10 @@ header a, footer a, .btn{
   display: inline-block;
 }
 
+.btn:hover{
+  background-color: #5d9bff;
+}
+
 /* header   */
 header{
   justify-content: space-between;
@@ -32,11 +37,16 @@ header{
 header div.flex{
   gap: 20px;
   align-items: center;
+  height: 80px;
 }
 
 header div a img{
   position: relative;
   top: 5px;
+}
+
+header a:hover{
+  border-bottom: 2px solid black;
 }
 
 /* main */
@@ -73,7 +83,7 @@ section.jumbo p:nth-child(3){
 }
 
 .arrow{
-  font-size: xx-large;
+  font-size: 50px;
 }
 
 section.jumbo div.flex div div:last-child{
@@ -90,12 +100,17 @@ height: 1px;
 /* sezione1 moduli*/
 .sezione1{
   width: 50%;
-  margin: 0 auto;
+  margin: 0 auto 150px auto;
+
 }
 
 h2{
   margin: 40px 0;
   font-size: xx-large;
+}
+
+h3{
+  font-size: large;
 }
 
 .selectround, .round{
@@ -131,13 +146,30 @@ main h4.modtitol{
   justify-content: space-between;
   flex-wrap: wrap;
 }
-.modulo *{
+
+.modulo h4 i{
+  margin: 15px 0;
+}
+
+.modulo h3{
   margin: 15px 0;
 }
 
 p.bold{
   font-weight: bolder;
+  margin-bottom: 10px;
 }
+
+.modulo ul.altezzaspecifica{
+  height: 180px;
+}
+.modulo ul li{
+  margin: 10px 0;
+}
+.modulo .btn, .modmain div, .modulo hr, .modulo h4{
+  margin-bottom: 20px;
+}
+
 .modulo{
   border: 2px solid #d0cfd4;
   width: 30%;
@@ -145,7 +177,7 @@ p.bold{
 }
 
 .modmain{
-  padding: 15px;
+  padding: 15px 15px 40px 15px;
 }
 
 .periodo{
@@ -162,7 +194,7 @@ main .modulo hr{
   height: 2px;
 }
 
-.fa-solid, .fa-check{
+.check{
   color: #0061fe;
 }
 
@@ -174,9 +206,13 @@ main .modulo hr{
   position: relative;
 }
 
+.modulo4 p{
+  width: 70%;
+}
+
 .btn-assolute{
   position: absolute;
-  top: 0;
+  top: 25px;
   right: 25px;
 }
 /* footer */
