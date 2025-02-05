@@ -8,7 +8,6 @@
 
 .flex{
   display: flex;
-  align-items: center;
 }
 
 a{
@@ -31,9 +30,31 @@ header{
 
 header div.flex{
   gap: 20px;
+  align-items: center;
 }
 
 header div a img{
   position: relative;
   top: 5px;
 }
+
+/* main */
+h1{
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  padding: 40px 0 0 0;
+  font-size: 50px;
+  
+}
+ section.jumbo div.flex{
+  width: 80%;
+  margin: 0 auto;
+ }
+
+ section.jumbo{
+  background-color: #b4d0e6;
+ }
+ section.jumbo div.flex img{
+  width: 60%;
+ }
