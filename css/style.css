@@ -4,3 +4,15 @@
     padding: 0;
     box-sizing: border-box;
   }
+
+  .flex{
+    display: flex;
+  }
+
+  ul{
+    list-style: none;
+  }
+
+  header li a {
+    text-decoration: none;
+  }
