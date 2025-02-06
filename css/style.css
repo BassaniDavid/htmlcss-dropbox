@@ -118,7 +118,7 @@ height: 1px;
 }
 
 /* sezione1 moduli*/
-.sezione1{
+.sezione1, .sezione2{
   width: 50%;
   margin: 0 auto 150px auto;
 
@@ -234,6 +234,26 @@ main .modulo hr{
   position: absolute;
   top: 25px;
   right: 25px;
+}
+
+/* sezione2 */
+.sezione2 img{
+  width: 60%;
+  object-fit: contain;
+}
+.sezione2 div.flex div{
+  padding: 30px 20px;
+}
+
+.sezione2 div.flex div *{
+  margin-bottom: 20px;
+}
+
+.sezione2 div.flex div .btn{
+  margin-top: 15px;
+  background-color: #ffffff;
+  color: #000000;
+  border: 1px solid #000000;
 }
 /* footer */
 footer{
