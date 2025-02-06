@@ -23,7 +23,7 @@ header a, footer a, .btn{
 }
 
 .btn:hover{
-  background-color: #5d9bff;
+  filter: brightness(1.4);
 }
 
 /* header   */
@@ -37,6 +37,7 @@ header{
   left: 0;
   background-color: #ffffff;
   z-index: 2;
+  box-shadow: 0 1px 3px 0px #c6c6c6;
 }
 
 header div.flex{
@@ -53,7 +54,7 @@ header div.flex ul{
 }
 header div.flex ul li{
   display: inline-block;
-  margin-right: 20px;
+  padding:0  10px;
   height: 100%;
 }
 
@@ -118,7 +119,7 @@ height: 1px;
 }
 
 /* sezione1 moduli*/
-.sezione1, .sezione2{
+.sezione1, .sezione2, .sezione3, .sezione4{
   width: 50%;
   margin: 0 auto 150px auto;
 
@@ -255,8 +256,29 @@ main .modulo hr{
   color: #000000;
   border: 1px solid #000000;
 }
+
+/* sezione3 */
+.sezione3 div.flex{
+
+}
+
+.sezione3 img{
+  width: 100%;
+  object-fit: contain; 
+}
+
+
+/* sezione4 */
+.sezione4 h2{
+  width: 70%;
+}
+
+.sezione4 a{
+  color: #3a0df0;
+}
+
 /* footer */
-footer{
+footer, footer a{
   background-color: #000000;
   color: #ffffff;
 }
@@ -268,9 +290,8 @@ footer .flex{
   line-height: 35px;
 }
 
-footer ul, .lingua{
+footer ul li{
   list-style: none;
-  font-size: small;
 }
 
 footer section{
