@@ -32,20 +32,40 @@ header{
   align-items: center;
   height: 80px;
   padding: 0 1%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+  z-index: 2;
 }
 
 header div.flex{
   gap: 20px;
-  align-items: center;
+  align-items: stretch;
   height: 80px;
 }
 
+header div.flex > a{
+  align-self: center;
+}
+header div.flex ul{
+  list-style: none; 
+}
+header div.flex ul li{
+  display: inline-block;
+  margin-right: 20px;
+  height: 100%;
+}
+
+header div.flex ul li a{
+  line-height: 80px;
+}
 header div a img{
   position: relative;
   top: 5px;
 }
 
-header a:hover{
+header div.flex ul li:hover{
   border-bottom: 2px solid black;
 }
 
