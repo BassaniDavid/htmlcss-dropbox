@@ -163,7 +163,7 @@ main h4.modtitol{
 
 }
 
-.flex-modulo{
+.flex-modulo, .sezione3 div.flex{
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -261,9 +261,6 @@ main .modulo hr{
 }
 
 /* sezione3 */
-.sezione3 div.flex div{
-}
-
 .sezione3 img{
   width: 100%;
   object-fit: contain; 
