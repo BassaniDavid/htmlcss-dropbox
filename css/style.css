@@ -181,6 +181,15 @@ p.bold{
   margin-bottom: 10px;
 }
 
+.modmain ul li{
+  display: flex;
+}
+.modmain ul li i{
+  padding-right: 5px;
+  position: relative;
+  top: 3px;
+}
+
 .modulo ul.altezzaspecifica{
   height: 180px;
 }
